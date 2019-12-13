@@ -1,5 +1,5 @@
 /*Start global*/
-@font-face {font-family:"The Historia Demo";src:url("TheHistoriaDemo.eot?") format("eot"),url("TheHistoriaDemo.woff") format("woff"),url("TheHistoriaDemo.ttf") format("truetype"),url("TheHistoriaDemo.svg#TheHistoriaDemo") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"The Historia Demo";src:url("https://github.com/tamal2000/tamal2000.github.io/blob/master/TheHistoriaDemo.eot?raw=true") format("eot"),url("https://github.com/tamal2000/tamal2000.github.io/blob/master/TheHistoriaDemo.woff?raw=true") format("woff"),url("https://github.com/tamal2000/tamal2000.github.io/blob/master/TheHistoriaDemo.ttf?raw=true") format("truetype"),url("https://raw.githubusercontent.com/tamal2000/tamal2000.github.io/master/TheHistoriaDemo.svg") format("svg");font-weight:normal;font-style:normal;}
 
 *{
   margin: 0;
@@ -164,7 +164,7 @@ li{
 .landing-text h1{
   font-size: 18rem;
   font-weight: 100;
-  font-family: "The Historia Demo", cursive;
+  font-family: "The Historia Demo", sans-serif;
   background: linear-gradient(to top,#393e46, #393e46);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
