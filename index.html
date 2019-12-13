@@ -1,22 +1,265 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Techwala</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Chelsea Market' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="favicon.ico">
 
-    <title>TechWala</title>
-  </head>
-  <body>
-    <h1>Welcome to TechWala</h1>
+</head>
+<body>
+  <header>
+    <div class="menu-toggler">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+
+    <nav class="top-nav">
+      <div class="mobileHide"><a href="#" class="logo">Techwala</a></div>
+      <ul class="nav-list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#portfolio" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+    </nav>
+
+    <div class="landing-text">
+      <h1>Asif Anwar</h1>
+      <h6>Data Scientist | Technology Consultant</h6>
+    </div>
+    <div class="get-in-touch" data-aos="zoom-out-up" data-aos-delay="50">
+      <a class='touch' href="#contact">Get in Touch</a>
+    </div>
+    <div class="down" id="down">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <section class="about" id='about'>
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right", data-aos-delay="300">
+        <img src="images/profile.png" alt="">
+      </div>
+      <div class="about-details">
+        <div class="about-heading">
+          <h1>About</h1>
+          <h6>Myself</h6>
+        </div>
+
+        <div class="about-text">
+          <p>
+            <br>I am a technology consultant, currently working as a freelancer in The Netherlands.<br>
+
+            <br>I have more than ten years of experience technology project management, regulatory projects, mobile banking, digital sales, service and adoptions
+
+            <br><br>I am also an IBM Certified Machine Learning expert.
+
+        </div>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li><a href="https://www.linkedin.com/in/anwarasif/" class="icon-link"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://twitter.com/tamal2000" class="icon-link"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="https://medium.com/asif-anwar" class="icon-link"><i class="fab fa-medium"></i></a></li>
+              <li><a href='mailto:anwar.asif@me.com' class="icon-link"><i class="fas fa-envelope-square"></i></a></li>
+              <li><a href='https://wa.me/+31685402486?text=I%20am%20inquiring%20about%20the%20consultancy%20servicde' class="icon-link"><i class="fab fa-whatsapp-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="services" id='services'>
+    <div class="container">
+      <div class="section-heading">
+        <h1>Services</h1>
+        <h6>What I can do for you</h6>
+      </div>
+      <div class="my-skills">
+        <div class="skill" data-aos="fade-in", data-aos-delay="300">
+          <div class="icon-container">
+            <i class="far fa-chart-bar"></i>
+          </div>
+          <h1>Data Science</h1>
+          <p>
+            Supervised & Unsupervised Machine Learning model preperation &#183; Data visualization &#183; Data Annotation (outsource).
+          </p>
+        </div>
+        <div class="skill"data-aos="fade-in", data-aos-delay="600">
+          <div class="icon-container">
+            <i class="fas fa-puzzle-piece"></i>
+          </div>
+          <h1>Business Analyst</h1>
+          <p>
+            Business & Regulatory Projects Management &#183; Service Management &#183; Customer Launch &#183; Tech Support Management
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in", data-aos-delay="900">
+          <div class="icon-container">
+            <i class="fas fa-university"></i>
+          </div>
+          <h1>Digital Banking</h1>
+          <p>
+            Online Banking & Mobile App platform  <br> Digital Sales & Services. <br>Digital Marking.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id='experience'>
+    <div class="container">
+      <div class="section-heading">
+        <h1>Work Experience</h1>
+        <h6>Past and Current Jobs</h6>
+      </div>
+      <div class="timeline" data-aos="fade-down", data-aos-delay="300">
+        <ul>
+          <li class="date" data-date="2019 - Present">
+            <h1>Techwala</h1>
+            <p>
+              Freelance data scientist & technology consultant.
+            </p>
+          </li>
+          <li class="date" data-date="2016 - 2019">
+            <h1>Standard Chartered</h1>
+            <p>
+              Senior Manager, Digital Banking
+            </p>
+          </li>
+          <li class="date" data-date="2014 - 2016">
+            <h1>Standard Chartered</h1>
+            <p>
+              Head, User Support & Service Management
+            </p>
+          </li>
+          <li class="date" data-date="2012 - 2014">
+            <h1>Standard Chartered</h1>
+            <p>
+              Technology Service Manager
+            </p>
+          </li>
+          <li class="date" data-date="2012 - 2011">
+            <h1>Standard Chartered</h1>
+            <p>
+              Technology Relationship Manager, Consumer Banking
+            </p>
+          </li>
+          <li class="date" data-date="2011 - 2006">
+            <h1>Standard Chartered</h1>
+            <p>
+              Application Security Administrator
+            </p>
+          </li>
+        </ul>
+    </div>
+  </section>
+
+
+  <section class="portfolio" id='portfolio'>
+    <div class="container">
+      <div class="section-heading">
+        <h1>My Tech Blog</h1>
+        <h6>View some of my recent blog posts</h6>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right", data-aos-delay="300" >
+          <img src="images/utrecht.jpg" alt="">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left", data-aos-delay="600">
+          <h6>Unsupervised Learning</h6>
+          <h1>K-means Cluster</h1>
+          <p>
+            Apartment hunting in the emerging neighbourhoods of Utrecht, NL using Machine Learning Technics
+          <p>
+          <a href="https://medium.com/asif-anwar/utrecht-apartment-hunting-da9883131ff6" class="cta">More</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+          <div class="portfolio-description has-margin-right" data-aos="fade-right", data-aos-delay="900">
+            <h6>Data Structure</h6>
+            <h1>Stack</h1>
+          <p>
+            I shared my python code for stack algorithm along with a classic stack use case “Bracket solver”.
+          <p>
+            <a href="https://medium.com/asif-anwar/algorithm-101-stack-a015bbac0b53" class="cta">View Details</a>
+          </div>
+          <div class="portfolio-img" data-aos="fade-left", data-aos-delay="1200">
+            <img src="images/stack.jpg" alt="">
+          </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right", data-aos-delay="1500" >
+          <img src="images/data.png" alt="">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left", data-aos-delay="1800">
+          <h6>Data Science</h6>
+          <h1>Data Collection</h1>
+        <p>
+          Python cheatsheet on data collection for data science projects.
+        <p>
+          <a href="https://medium.com/asif-anwar/cheatsheet-part1-fa64c1308ab3" class="cta">View Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id='contact'>
+    <div class="container">
+      <div class="section-heading">
+        <h1>Contact</h1>
+        <h6>Let's work together</h6>
+      </div>
+      <form action="https://usebasin.com/f/651bf4ad6efc" method="POST" data-aos="fade-up", data-aos-delay="300">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="service">Services:</label>
+        <select name="services" id='service'>
+          <option value="">Data Science Project</option>
+          <option value="">Technology Project Management</option>
+          <option value="">Digital Banking</option>
+          <option value="">Other</option>
+        <label for="subject">subject:</label>
+        <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <ul class="nav-list">
+      <li><a href="https://www.linkedin.com/in/anwarasif/" class="icon-link"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="https://twitter.com/tamal2000" class="icon-link"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://medium.com/asif-anwar" class="icon-link"><i class="fab fa-medium-m"></i></a></li>
+      <li><a href='mailto:anwar.asif@me.com' class="icon-link"><i class="fas fa-envelope-open"></i></a></li>
+      <li><a href='https://wa.me/+31685402486?text=I%20am%20inquiring%20about%20the%20consultancy%20servicde' class="icon-link"><i class="fab fa-whatsapp"></i></a></li>
+    </ul>
+    <p>&copy 2019: Asif Anwar</p>
+    <p>Korte LaUtrecht, Netherlands</p>
+
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
