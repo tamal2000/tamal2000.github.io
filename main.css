@@ -100,6 +100,7 @@ img{
 header{
   width: 100%;
   height: 100vh;
+  background-color: #eee;
 }
 .top-nav{
   width: 100%;
@@ -335,6 +336,10 @@ li{
 /*End services*/
 
 /*Start portfolio*/
+.portfolio{
+  background-color: #eee;
+
+}
 .portfolio-item{
   display: flex;
   align-items: center;
@@ -644,7 +649,7 @@ input[type="submit"]:hover{
   body{
     width: 100%;
     height: 100%;
-    background-color: f4f9f4;
+    background-color: #f4f9f4;
   }
 
   .landing-text h1{
@@ -791,13 +796,13 @@ input[type="submit"]:hover{
   }
 
   .get-in-touch{
-    right: 40%;
-    top: 62%;
+    right: 38%;
+    top: 67%;
   }
 
   .down{
-    top: 80%;
-    right: 47%;
+    top: 85%;
+    right: 45%;
   }
 
   .landing-text h1{
@@ -874,7 +879,26 @@ input[type="submit"]:hover{
   }
 
   .timeline .date::before{
-    font-size: 1.4;
+    font-size: 1.4rem;
+  }
+
+  .timeline .date::before{
+    content: attr(data-date);
+    left: -15rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 1.5rem;
+  }
+
+  .timeline .date::after{
+    content: '';
+    box-shadow: 0 0 0 4px #d80e70;
+    border-radius: 100%;
+    left: -5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #fff;
+
   }
 
   form{
@@ -885,14 +909,18 @@ input[type="submit"]:hover{
     right: 2rem;
   }
 
+footer{
+  background-color: black;
+}
   body {
     background-color: black;
   }
+  .copyright ul{
+    padding-left: 20%;
+  }
   .copyright li{
-    padding-left: 5rem;
+    padding-left: 2rem;
   }
 
 }
-
-
 /*End media queries*/
