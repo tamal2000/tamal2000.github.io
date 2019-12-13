@@ -162,9 +162,9 @@ li{
 }
 
 .landing-text h1{
-  font-size: 15rem;
+  font-size: 18rem;
   font-weight: 100;
-  font-family: 'Pacifico', cursive;
+  font-family: "The Historia Demo", cursive;
   background: linear-gradient(to top,#393e46, #393e46);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
